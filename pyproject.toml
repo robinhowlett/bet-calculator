@@ -1,0 +1,12 @@
+[project]
+name = "bet-calculator"
+version = "0.1.0"
+description = "Pari-mutuel bet mechanics: types, construction (wheel/box/key), costs, permutations, leg tracking"
+requires-python = ">=3.12"
+dependencies = []
+
+[project.optional-dependencies]
+dev = ["pytest"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
