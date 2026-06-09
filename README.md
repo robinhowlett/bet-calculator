@@ -4,6 +4,8 @@ Pure mechanics for pari-mutuel wagering: bet types, ticket construction, cost ca
 
 No opinions, no probabilities, no database — just "here's what this ticket IS."
 
+Consumed by [race-day-sim](https://github.com/robinhowlett/race-day-sim) (via `tickets.py`) to construct bets from classified opinions.
+
 ## What it does
 
 ```python
